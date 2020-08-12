@@ -25,7 +25,7 @@ def ryoushi():
 def sumoguri():
     return render_template('course_sumoguri.html')
 # urashima
-@app.route('/urahshima')
+@app.route('/urashima')
 def urashima():
     return render_template('course_urashima.html')
 
